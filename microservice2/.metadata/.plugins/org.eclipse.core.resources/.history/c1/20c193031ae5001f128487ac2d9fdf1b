@@ -1,0 +1,5 @@
+package com.profound.address.repository;
+
+public interface AddressRepository {
+
+}

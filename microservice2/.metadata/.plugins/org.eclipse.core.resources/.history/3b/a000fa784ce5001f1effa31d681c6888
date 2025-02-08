@@ -1,0 +1,5 @@
+package com.profound.address.response;
+
+public class AddressResponse {
+
+}

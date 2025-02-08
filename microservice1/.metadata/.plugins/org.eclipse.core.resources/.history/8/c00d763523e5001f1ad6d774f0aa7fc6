@@ -1,0 +1,14 @@
+package com.profound.employee.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.profound.employee.service.EmployeeService;
+
+@RestController
+public class EmployeeController 
+{
+	@Autowired
+	private EmployeeService employeeService;
+
+}

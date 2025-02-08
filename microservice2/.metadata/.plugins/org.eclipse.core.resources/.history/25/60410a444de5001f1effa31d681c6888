@@ -1,0 +1,5 @@
+package com.profound.address.config;
+
+public class AddressConfig {
+
+}

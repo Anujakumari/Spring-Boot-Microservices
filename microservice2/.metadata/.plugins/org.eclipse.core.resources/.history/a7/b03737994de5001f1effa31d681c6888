@@ -1,0 +1,13 @@
+package com.profound.address.config;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class AddressConfig {
+
+	@Bean
+	public ModelMapper modelMapperBean()
+	{
+		return new ModelMapper();
+	}
+}
